@@ -17,7 +17,7 @@
     --outline-green: 1px solid green;
 }
 
-html,bod {
+html, body {
     background-color: var(--clr-neutral-100);
     font-family: var(--Epilogue);
     margin: 0;
@@ -27,7 +27,7 @@ html,bod {
 
 
 .navigation-menu {
-    background-color: var(--clr-neutral-300);
+    background-color: var(--clr-neutral-100);
     width: 100%;
     position: fixed;
     display: inline-flex;
