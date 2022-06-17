@@ -25,6 +25,44 @@ html, body {
     overflow-x: hidden;
 }
 
+.features-drop-wrapper {
+    display: none;
+    grid-template-columns: auto;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -60px;
+    gap: 15px;
+    background-color: white;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1.3em;
+}
+
+.features-link-box {
+    display: flex;
+    align-items: center;
+}
+
+.features-link-box a {
+    margin-left: 12px;
+}
+
+
+.company-drop-wrapper {
+    display: none;
+    grid-template-columns: auto;
+    position: absolute;
+    margin-top: 15px;
+    gap: 14px;
+    background-color: white;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1.3em;
+}
+
+.company-drop-wrapper a {
+    margin-left: 5px;
+}
 
 .navigation-menu {
     background-color: var(--clr-neutral-100);
@@ -70,10 +108,18 @@ html, body {
     grid-template-columns: auto auto;
 }
 
+.dropbtn:hover, :focus {color: var(--clr-neutral-300);}
+
 .navigation-menu a {
     text-decoration: none;
     color: var(--clr-neutral-200);
     font-size: 14px;
+    cursor: pointer;
+}
+
+.careers:hover,
+.about:hover {
+    color: var(--clr-neutral-300);
 }
 
 .navigation-login-register {
@@ -81,6 +127,10 @@ html, body {
     justify-content: end;
     width: 700px;
     gap: 2em;
+}
+
+.login:hover {
+    color: var(--clr-neutral-300);
 }
 
 .register {
@@ -91,14 +141,18 @@ html, body {
     border: 2px solid var(--clr-neutral-200);
 }
 
+.register:hover {
+    border: 2px solid var(--clr-neutral-300);
+}
+
 .hero-container {
+    padding-left: 4em;
     margin-top: 6em;
-    width: 100%;
-    height: 100%;
     display: grid;
-    gap: 5em;
+    gap: 4em;
     grid-template-columns: auto auto;
     place-items: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -107,8 +161,6 @@ html, body {
     display: grid;
     justify-content: left;
     align-items: center;
-    gap: 2em;
-    outline: var(--outline-orange);
 }
 
 .hero-main-heading {
@@ -120,6 +172,8 @@ html, body {
     max-width: 470px;
     padding: 0;
     margin: 0;
+    margin-top: 1em;
+    margin-bottom: 30px;
 }
 
 .hero-paragraph {
@@ -135,6 +189,11 @@ html, body {
     padding: 0;
 }
 
+.part2-container {
+    display: grid;
+    width: fit-content;
+}
+
 .hero-learn-more {
     display: grid;
     width: fit-content;
@@ -147,13 +206,22 @@ html, body {
     border-radius: 15px;
     padding: 1em;
     padding-inline: 1.5em;
+    margin-top: 2.5em;
+    margin-bottom: 5em;
+    border: 2px solid var(--clr-neutral-300);
+}
+
+.learn-more:hover {
+    background-color: white;
+    border: 2px solid var(--clr-neutral-300);
+    color: black;
 }
 
 .hero-collaborators {
     display: grid;
     grid-template-columns: auto auto auto auto;
     place-items: center;
-    justify-items: left;
+    gap: 1.5em;
 }
 
 .collaborators {
@@ -165,7 +233,9 @@ html, body {
     background-image: url('../images/image-hero-desktop.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     width: 500px;
     height: 500px;
 }
+
 
