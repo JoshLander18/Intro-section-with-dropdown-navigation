@@ -2,7 +2,8 @@ FRONTENT MENTOR CHALLENGE - Intro Section With Dropdown Navigation (Kinda Workin
 
 Built By - Joshua Watson
 
-Links - Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-vcfYWTnkrw](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub/intro-section-using-html-and-css-desktop-design-DLVHFyhtGs) Live Site URL: [https://jwdesignsfaq.netlify.app](https://jwintrodesign.netlify.app/)
+Links - Solution URL: https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub/intro-section-using-html-and-css-desktop-design-DLVHFyhtGs
+Live Site URL: [[https://jwdesignsfaq.netlify.app](https://jwintrodesign.netlify.app/)](https://jwintrodesign.netlify.app)
 
 Built with - HTML, CSS, Javascript
 
